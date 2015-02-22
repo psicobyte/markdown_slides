@@ -6,7 +6,16 @@ El lenguaje de marcas para los que no les gustan los lenguajes de marcas
 
 ## Bienvenidos
 
-Holas
+<table>
+<tr><td>![Yo](img/bio.jpg)
+</td><td>Angel Pablo Hinojosa
+
+http://www.psicobyte.com
+
+@psicobyte_
+
+</td></tr></table>
+
 
 --SLIDE--
 
@@ -39,6 +48,7 @@ Que cualquiera pueda editar un texto, sin restricciones de medio o conocimientos
 * Wiki markup
 * **email**
 
+--SLIDE--
 
 ## ¿Por qué usar Markdown?
 
@@ -112,6 +122,29 @@ Cabecera H1
 ===========
 Cabecera H2
 -----------
+
+--SLIDE--
+
+## Citas
+
+```md
+Como dije yo mismo una vez:
+
+> El texto tras el signo ">" aparece citado.
+> Como en el correo electrónico.
+
+> Muy conveniente.
+```
+Equivale al elemento `<blockquote>`
+
+--SUBSLIDE--
+
+Como dije yo mismo una vez:
+
+> El texto tras el signo ">" aparece citado.
+> Como en el correo electrónico.
+
+> Muy conveniente.
 
 --SLIDE--
 
@@ -256,12 +289,20 @@ Este código `self.parent = parent` está incrustado en una línea.
 
 --SUBSLIDE--
 
-<pre lang="md"><code>
+<pre><code>
 Esto es un bloque de código:
 
 ```python
-def Hola():
-    print "Hola Mundo"
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import sys
+
+def Hola(var):
+    if var == "hola":
+        print "Hola Mundo"
+
+Hola("hola")
 ```
 </code></pre>
 
@@ -282,8 +323,17 @@ def Hola(var):
 Hola("hola")
 ```
 
+--SLIDE--
 
+## Imágenes
 
+```md
+![Foto de un gato en una caja](img/gato.jpg "Mi gato")
+```
+
+--SUBSLIDE--
+
+![Foto de un gato en una caja](img/gato.jpg "Mi gato")
 
 
 
