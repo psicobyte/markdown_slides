@@ -2,10 +2,43 @@
 
 El lenguaje de marcas para los que no les gustan los lenguajes de marcas
 
+--SLIDE--
 
+## Bienvenidos
 
+Holas
 
 --SLIDE--
+
+
+## ¿Quién?
+
+John Gruber y Aaron Swartz
+
+--SLIDE--
+
+## ¿qué es Markdown
+
+Texto simple, con ciertas convenciones "*lógicas*"
+
+Un programa que convierte ese texto a **XHTML**
+
+--SLIDE--
+
+## El objetivo
+
+Que cualquiera pueda editar un texto, sin restricciones de medio o conocimientos
+
+--SLIDE--
+
+
+## Antecedentes
+
+* Textile
+* ReStructuredText
+* Wiki markup
+* **email**
+
 
 ## ¿Por qué usar Markdown?
 
@@ -181,6 +214,76 @@ El caracter de escape es \\
 1. Segundo elemento
 1. Tercero
 1. Cuarto...
+
+
+--SLIDE--
+
+## Barra Horizontal
+
+¿pero alguien usa esto?
+
+```md
+-------------------------
+
+- - - - - - - - - - - - -
+
+_________________________
+
+---
+```
+
+--SUBSLIDE--
+
+-------------------------
+
+- - - - - - - - - - - - -
+
+_________________________
+
+---
+
+--SLIDE--
+
+## Código
+
+```md
+Este código `self.parent = parent` está incrustado en una línea.
+```
+
+--SUBSLIDE--
+
+Este código `self.parent = parent` está incrustado en una línea.
+
+--SUBSLIDE--
+
+<pre lang="md"><code>
+Esto es un bloque de código:
+
+```python
+def Hola():
+    print "Hola Mundo"
+```
+</code></pre>
+
+--SUBSLIDE--
+
+Esto es un bloque de código:
+
+```python
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import sys
+
+def Hola(var):
+    if var == "hola":
+        print "Hola Mundo"
+
+Hola("hola")
+```
+
+
+
 
 
 
