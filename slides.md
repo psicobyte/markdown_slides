@@ -57,8 +57,6 @@ Código fuente legible.
 Accesible y fácil de convertir.
 
 
-
-
 --SLIDE--
 
 ## Párrafos
@@ -178,6 +176,18 @@ Este texto contiene **Negritas**
 
 Este texto contiene __Negritas__
 
+--SUBSLIDE--
+
+## Tachado
+
+```md
+Y un poco de ~~texto Tachado~~
+```
+
+--SUBSLIDE--
+
+Y un poco de ~~texto Tachado~~
+
 --SLIDE--
 
 ## (escapando caracteres con "\\")
@@ -209,7 +219,6 @@ El caracter de escape es \\
 - Y se pueden mezclar
 * Y no pasa nada
 ```
-
 
 --SUBSLIDE--
 
@@ -245,7 +254,6 @@ El caracter de escape es \\
 1. Segundo elemento
 1. Tercero
 1. Cuarto...
-
 
 --SLIDE--
 
@@ -393,7 +401,7 @@ Y puede ser [el propio texto]
 --SLIDE--
 
 
-## Tablas (OJO: No estandar)
+## Tablas
 
 ```md
 |Cabecera 1 |Cabecera 2 |Cabecera 3 |
@@ -445,10 +453,38 @@ celda 1 B | celda 2 B | celda 3 B
 
 
 
+--SLIDE--
+
+## ¿Donde?
+
+github
+pandoc
 
 
 
 
+
+--SLIDE--
+
+## Más allá de Markdown
+
+rmarkdown
+
+
+
+
+
+
+
+
+
+
+--SLIDE--
+
+
+## Muchas gracias
+
+¿Preguntas?
 
 
 
