@@ -354,6 +354,46 @@ Hola("hola")
 
 
 
+--SLIDE--
+
+## Enlaces
+
+```md
+Enlace a [Mi blog](http://www.psicobyte.com)
+```
+
+--SUBSLIDE--
+
+Enlace a [Mi blog](http://www.psicobyte.com)
+
+--SUBSLIDE--
+
+```md
+Y esto es un [Enlace por referencia][1]
+
+La referencia [puede ser un texto][referencia de texto]
+
+Y puede ser [el propio texto]
+
+[1]: http://osl.ugr.es
+[referencia de texto]: http://www.ugr.es
+[el propio texto]: http://www.psicobyte.com
+```
+
+--SUBSLIDE--
+
+Y esto es un [Enlace por referencia][1]
+
+La referencia [puede ser un texto][referencia de texto]
+
+Y puede ser [el propio texto]
+
+[1]: http://osl.ugr.es
+[referencia de texto]: http://www.ugr.es
+[el propio texto]: http://www.psicobyte.com
+
+--SUBSLIDE--
+
 
 
 
