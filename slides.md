@@ -323,39 +323,6 @@ Hola("hola")
 
 --SLIDE--
 
-## Imágenes
-
-```md
-![Foto de un gato en una caja](img/gato.jpg "Mi gato (Grizzly)")
-```
-
---SUBSLIDE--
-
-![Foto de un gato en una caja](img/gato.jpg "Mi gato (Grizzly)")
-
---SUBSLIDE--
-
-## Imágenes (por referencia)
-
-```md
-
-![La misma foto del gato][gato]
-
-[gato]: img/gato.jpg
-
-```
-
---SUBSLIDE--
-
-
-![La misma foto del gato][gato]
-
-[gato]: img/gato.jpg
-
-
-
---SLIDE--
-
 ## Enlaces
 
 ```md
@@ -392,23 +359,88 @@ Y puede ser [el propio texto]
 [referencia de texto]: http://www.ugr.es
 [el propio texto]: http://www.psicobyte.com
 
+
+--SLIDE--
+
+## Imágenes
+
+```md
+![Foto de un gato en una caja](img/gato.jpg "Mi gato (Grizzly)")
+```
+
+--SUBSLIDE--
+
+![Foto de un gato en una caja](img/gato.jpg "Mi gato (Grizzly)")
+
+--SUBSLIDE--
+
+## Imágenes (por referencia)
+
+```md
+
+![La misma foto del gato][gato]
+
+[gato]: img/gato.jpg
+
+```
+
+--SUBSLIDE--
+
+![La misma foto del gato][gato]
+
+[gato]: img/gato.jpg
+
+--SLIDE--
+
+
+## Tablas (OJO: No estandar)
+
+```md
+|Cabecera 1 |Cabecera 2 |Cabecera 3 |
+|-----------|----------:|:----------|
+| celda 1 A | celda 2 A | celda 3 A |
+| celda 1 B | celda 2 B | celda 3 B |
+
+```
+
 --SUBSLIDE--
 
 
+|Cabecera 1 |Cabecera 2 |Cabecera 3 |
+|-----------|----------:|:----------|
+| celda 1 A | celda 2 A | celda 3 A |
+| celda 1 B | celda 2 B | celda 3 B |
 
 
 
+--SUBSLIDE--
+
+```md
+Cabecera 1 |Cabecera 2 |Cabecera 3
+----|-----:|:------
+celda 1A | celda 2A | celda 3 A
+celda 1 B | celda 2 B | celda 3 B
+```
+
+--SUBSLIDE--
+
+Cabecera 1 |Cabecera 2 |Cabecera 3
+----|-----:|:------
+celda 1A | celda 2A | celda 3 A
+celda 1 B | celda 2 B | celda 3 B
+
+--SLIDE--
+
+## Pero hay algo que necesito y no está...
 
 
+```md
+...pero puedes usar <strong>HTML</strong>.
+```
 
+--SUBSLIDE--
 
-
-
-
-
-
-
-
+...pero puedes usar <strong>HTML</strong>.
 
 
 
