@@ -7,22 +7,14 @@ El lenguaje de marcas para los que no les gustan los lenguajes de marcas
 ## Bienvenidos
 
 <table>
-<tr><td>![Yo](img/bio.jpg)
-</td><td>Angel Pablo Hinojosa
+<tr><td>![Yo](img/congato.jpg)
+</td><td>Pablo Hinojosa (*& Grizzly*)
 
 http://www.psicobyte.com
 
 @psicobyte_
 
 </td></tr></table>
-
-
---SLIDE--
-
-
-## ¿Quién?
-
-John Gruber y Aaron Swartz
 
 --SLIDE--
 
@@ -47,6 +39,12 @@ Que cualquiera pueda editar un texto, sin restricciones de medio o conocimientos
 * ReStructuredText
 * Wiki markup
 * **email**
+
+--SLIDE--
+
+## ¿Quién?
+
+John Gruber y Aaron Swartz
 
 --SLIDE--
 
@@ -105,7 +103,7 @@ Y esto es otro.
 ##### Cabecera H5
 ###### Cabecera H6
 
---SLIDE--
+--SUBSLIDE--
 
 ## Cabeceras (Opcional)
 
@@ -148,7 +146,7 @@ Como dije yo mismo una vez:
 
 --SLIDE--
 
-## Énfasis
+## Énfasis (cursivas)
 
 ```md
 Este texto contiene *Cursivas*
@@ -163,9 +161,9 @@ Este texto contiene *Cursivas*
 
 Este texto contiene _Cursivas_
 
---SLIDE--
+--SUBSLIDE--
 
-## Negritas
+## Énfasis (negritas)
 
 ```md
 Este texto contiene **Negritas**
@@ -182,7 +180,7 @@ Este texto contiene __Negritas__
 
 --SLIDE--
 
-## (escapando caracteres con \\)
+## (escapando caracteres con "\\")
 
 ```md
 Porque hay que saber distinguir *Hola* de \*Hola\*
@@ -224,9 +222,9 @@ El caracter de escape es \\
 - Y se pueden mezclar
 * Y no pasa nada
 
---SLIDE--
+--SUBSLIDE--
 
-## Listas numeradas
+## Listas (numeradas)
 
 ```md
 1. Primer elemento
@@ -328,12 +326,51 @@ Hola("hola")
 ## Imágenes
 
 ```md
-![Foto de un gato en una caja](img/gato.jpg "Mi gato")
+![Foto de un gato en una caja](img/gato.jpg "Mi gato (Grizzly)")
 ```
 
 --SUBSLIDE--
 
-![Foto de un gato en una caja](img/gato.jpg "Mi gato")
+![Foto de un gato en una caja](img/gato.jpg "Mi gato (Grizzly)")
+
+--SUBSLIDE--
+
+## Imágenes (por referencia)
+
+```md
+
+![La misma foto del gato][gato]
+
+[gato]: img/gato.jpg
+
+```
+
+--SUBSLIDE--
+
+
+![La misma foto del gato][gato]
+
+[gato]: img/gato.jpg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
