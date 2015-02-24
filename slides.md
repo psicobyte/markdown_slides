@@ -25,7 +25,7 @@ http://www.psicobyte.com
 
 --SLIDE--
 
-## ¿qué es Markdown
+## ¿Qué es Markdown?
 
 Texto simple, con ciertas convenciones "*lógicas*"
 
