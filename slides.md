@@ -1,5 +1,7 @@
 # Markdown
 
+![Markdown logo](img/208x128.png)
+
 El lenguaje de marcas para los que no les gustan los lenguajes de marcas
 
 --SLIDE--
@@ -7,8 +9,13 @@ El lenguaje de marcas para los que no les gustan los lenguajes de marcas
 ## Bienvenidos
 
 <table>
-<tr><td>![Yo](img/congato.jpg)
-</td><td>Pablo Hinojosa (*& Grizzly*)
+<tr><td>
+
+![Yo](img/congato.jpg)
+
+</td><td>
+
+Pablo Hinojosa (*& Grizzly*)
 
 http://www.psicobyte.com
 
@@ -24,11 +31,15 @@ Texto simple, con ciertas convenciones "*lógicas*"
 
 Un programa que convierte ese texto a **XHTML**
 
+La extensión usual es **\*.md**
+
 --SLIDE--
 
 ## El objetivo
 
-Que cualquiera pueda editar un texto, sin restricciones de medio o conocimientos
+Que cualquiera pueda editar un texto, sin restricciones de medio o conocimientos.
+
+Fácil de leer, fácil de escribir.
 
 --SLIDE--
 
@@ -52,7 +63,7 @@ John Gruber y Aaron Swartz
 
 Simple, fácil, e intuitivo.
 
-Código fuente legible.
+Código fuente **legible**.
 
 Accesible y fácil de convertir.
 
@@ -400,7 +411,6 @@ Y puede ser [el propio texto]
 
 --SLIDE--
 
-
 ## Tablas
 
 ```md
@@ -413,7 +423,6 @@ Y puede ser [el propio texto]
 
 --SUBSLIDE--
 
-
 |Cabecera 1 |Cabecera 2 |Cabecera 3 |
 |-----------|----------:|:----------|
 | celda 1 A | celda 2 A | celda 3 A |
@@ -439,8 +448,7 @@ celda 1 B | celda 2 B | celda 3 B
 
 --SLIDE--
 
-## Pero hay algo que necesito y no está...
-
+## Hay algo que necesito y no está...
 
 ```md
 ...pero puedes usar <strong>HTML</strong>.
@@ -450,14 +458,14 @@ celda 1 B | celda 2 B | celda 3 B
 
 ...pero puedes usar <strong>HTML</strong>.
 
-
-
-
 --SLIDE--
 
 ## ¿Donde?
 
-github
+http://stackoverflow.com 
+
+http://github.com
+
 pandoc
 
 
@@ -468,23 +476,29 @@ pandoc
 
 ## Más allá de Markdown
 
-rmarkdown
+R Markdown
 
+http://rmarkdown.rstudio.com/
 
+--SUBSLIDE--
 
-
-
-
-
-
-
+![Uso de R Markdown](img/rmarkdown.png)
 
 --SLIDE--
-
 
 ## Muchas gracias
 
 ¿Preguntas?
+
+![Creative Commons By SA](img/Cc-by-sa.png)
+
+
+
+
+
+
+
+
 
 
 
