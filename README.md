@@ -2,6 +2,8 @@
 
 Transparencias para una presentación sobre Markdown, escrita en Markdown, para ser usada con [revealz](https://github.com/aaronr/revealz)
 
+(las marcas "--SLIDE--" y "--SUBSLIDE--" son cosa de *revealz* y **NO** forman parte de Markdown)
+
 Licencia Creative Commons By SA
 
 © 2015 Angel Pablo Hinojosa Gutiérrez
