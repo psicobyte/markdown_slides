@@ -1,6 +1,6 @@
-# Markdown
-
 ![Markdown logo](img/208x128.png)
+
+# Markdown
 
 El lenguaje de marcas para los que no les gustan los lenguajes de marcas
 
@@ -35,14 +35,23 @@ La extensión usual es **\*.md**
 
 --SLIDE--
 
+## ¿Quién?
+
+John Gruber y Aaron Swartz
+
+http://daringfireball.net/projects/markdown/
+
+--SLIDE--
+
 ## El objetivo
 
 Que cualquiera pueda editar un texto, sin restricciones de medio o conocimientos.
 
-Fácil de leer, fácil de escribir.
-
 --SLIDE--
 
+## Fácil de leer, fácil de escribir.
+
+--SLIDE--
 
 ## Antecedentes
 
@@ -50,12 +59,6 @@ Fácil de leer, fácil de escribir.
 * ReStructuredText
 * Wiki markup
 * **email**
-
---SLIDE--
-
-## ¿Quién?
-
-John Gruber y Aaron Swartz
 
 --SLIDE--
 
@@ -67,6 +70,11 @@ Código fuente **legible**.
 
 Accesible y fácil de convertir.
 
+--SLIDE--
+
+## A lo práctico
+
+**GFM**: GitHub Flavored Markdown
 
 --SLIDE--
 
@@ -378,7 +386,6 @@ Y puede ser [el propio texto]
 [referencia de texto]: http://www.ugr.es
 [el propio texto]: http://www.psicobyte.com
 
-
 --SLIDE--
 
 ## Imágenes
@@ -466,11 +473,25 @@ http://stackoverflow.com
 
 http://github.com
 
-pandoc
+Hay módulos para Worpress, Drupal...
 
+reveal.js (y revealz)
 
+--SLIDE--
 
+## En mis proyectos
 
+[pandoc](http://johnmacfarlane.net/pandoc/)
+
+[Atom](https://atom.io/)
+
+[Markdown.pl (el original)](http://search.cpan.org/~sekimura/Text-Markdown-Discount-0.11/xt/MarkdownXS.pl)
+
+[Python-Markdown](http://pythonhosted.org//Markdown/)
+
+[Bootstrap Markdown](http://www.codingdrama.com/bootstrap-markdown/)
+
+[Parsedown (PHP)](http://parsedown.org/)
 
 --SLIDE--
 
@@ -492,29 +513,6 @@ http://rmarkdown.rstudio.com/
 
 ![Creative Commons By SA](img/Cc-by-sa.png)
 
+© 2015 Angel Pablo Hinojosa Gutiérrez
 
-
-
-
-
-
-
-
-
-
-
-
-
-
---SLIDE--
-
-## 
-
-```md
-```
-
---SUBSLIDE--
-
-
-
-
+https://github.com/psicobyte/markdown_slides
