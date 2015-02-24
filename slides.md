@@ -1,4 +1,4 @@
-![Markdown logo](img/208x128.png)
+![Markdown logo](img/208x128.png "Markdown logo")
 
 # Markdown
 
@@ -11,7 +11,7 @@ El lenguaje de marcas para los que no les gustan los lenguajes de marcas
 <table>
 <tr><td>
 
-![Yo](img/congato.jpg)
+![Yo](img/congato.jpg "Hola")
 
 </td><td>
 
