@@ -475,7 +475,7 @@ http://github.com
 
 Hay módulos para Worpress, Drupal...
 
-reveal.js (y revealz)
+[reveal.js](http://lab.hakim.se/reveal-js/) (y [revealz](https://github.com/aaronr/revealz))
 
 --SLIDE--
 
