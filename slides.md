@@ -516,3 +516,4 @@ http://rmarkdown.rstudio.com/
 © 2015 Angel Pablo Hinojosa Gutiérrez
 
 https://github.com/psicobyte/markdown_slides
+http://psicobyte.github.io/markdown_slides
